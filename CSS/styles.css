@@ -595,13 +595,6 @@ a {
     font-size: 3rem;
 }
 
-.chevron {
-    content: url(../images/chevron.svg);
-    width: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .collapsible__chevron {
     transform: rotate(-90deg);
     transition: transform 0.3s;
@@ -632,6 +625,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -835,3 +829,12 @@ a {
     }
 }
 
+/* Footer */
+.footer {
+    background: #232323;
+}
+
+.footer__section {
+    padding: 2rem;
+    border-bottom: 1px solid #393939;
+}
